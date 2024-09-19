@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Funny Compliment Generator</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+  <style>
+    body {
+        text-align: center;
+      font-family: 'Chewy', cursive;
+      background: url('https://github.com/m-anjali2/NewTry/blob/main/baby.jpeg?raw=true') no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      margin: 0;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      color: #ffdfd4;
+    }
+    #compliment {
+      margin-top: 20px;
+      font-size: 2em;
+      color: #fff;
+      transition: opacity 0.5s ease-in-out;
+      opacity: 0;
+    }
+    button {
+      padding: 15px 30px;
+      background-color: #f76b8a;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    }
+    button:hover {
+      background-color: #ff4081;
+      transform: scale(1.05);
+    }
+    button:active {
+      transform: scale(0.95);
+    }
+  </style>
+</head>
+<body>
+  <h1>Wanna Know SomeThing Sir?</h1>
+  <button id="generate-btn">Click Here!</button>
+  <p id="compliment"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
